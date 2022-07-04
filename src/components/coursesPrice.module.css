@@ -1,0 +1,38 @@
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.content {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.button {
+   width: auto;
+   padding: 8px 16px;
+   background: lightsalmon;
+   border: none;
+   border-radius: 4px;
+   opacity: 0.8;
+}
+.button:hover {
+   opacity: 1;
+}
+
+.table{
+   margin-top: 16px;
+}
+
+.tableElement {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.buttons {
+   margin-top: 16px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
